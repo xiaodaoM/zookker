@@ -1,11 +1,15 @@
 package com.zk.auth;
 
-import java.io.IOException;
-
-import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs.Ids;
-
+import org.apache.zookeeper.ZooKeeper;
+/**
+ * 权限...
+ * @功能:TODO
+ * @作者:zqp
+ * @版本:1.0
+ * @修改:
+ */
 public class AuthSample_1 {
 	
 	private static String path="/zk-auth-test";
