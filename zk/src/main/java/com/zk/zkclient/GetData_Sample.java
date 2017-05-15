@@ -28,7 +28,7 @@ public class GetData_Sample {
 			}
 		});	
 		
-		System.out.println(zk.readData(path));
+//		System.out.println(zk.readData(path));
 		Thread.sleep(1000);
 		zk.writeData(path, "456");//更新
 		Thread.sleep(1000);
